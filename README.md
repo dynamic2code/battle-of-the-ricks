@@ -48,4 +48,4 @@ cd battle-of-the-ricks
 
 npm install
 
-npm start
+npm run dev

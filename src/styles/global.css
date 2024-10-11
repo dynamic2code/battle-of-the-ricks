@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+.holder{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    /* background-color: blue; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    /* background-color: bisque; */
+}
+
+body a{
+    color: #fff;
+}
+
+body a:hover {
+    color: #ff6347; /* Tomato */
+}
+
+.heading{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.subheading{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.altText{
+    font-size: 1.2rem;
+    color: gray;
+}

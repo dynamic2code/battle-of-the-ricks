@@ -1,0 +1,26 @@
+.holder {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 200vh;
+    background-image: url('../assets/flury.svg'); /* Use the SVG as a background image */
+    background-size: cover; /* Make the SVG cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repetition of the image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    position: relative;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    height:auto;
+    width: auto;
+    bottom: -400px;
+}
